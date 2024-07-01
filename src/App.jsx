@@ -58,7 +58,7 @@ function App() {
               <Form.Label>Título</Form.Label>
               <Form.Control
                 type="text"
-                placeholder="Ingrese título"
+                placeholder="Ingrese Recordatorio"
                 value={title}
                 onChange={(e) => setTitle(e.target.value)}
               />
@@ -67,7 +67,7 @@ function App() {
               <Form.Label>Descripción</Form.Label>
               <Form.Control
                 type="text"
-                placeholder="Ingrese descripción"
+                placeholder="Ingrese Descripción de Recordatorio"
                 value={description}
                 onChange={(e) => setDescription(e.target.value)}
               />
